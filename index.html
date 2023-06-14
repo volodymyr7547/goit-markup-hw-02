@@ -5,19 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studio</title>
+  <title>MainPage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css/">
-</head>
+</head> 
 
-<body>
+<body class="body">
+
   <!-- Heder section -->
-  <header>
 
-    <nav>
-      <a class="heder-section" href="./index.html">WebStudio
+    <header class="header">
+    <nav class="nav">
+      <a class="heder-section" 
+      href="./index.html"><span class="web">Web</span><span class="studio">Studio</span>
       </a>
       <ul class="heder-section-list">
         <li><a class="heder-section-item-studio" href="./index.html">Studio</a></li>
@@ -25,7 +28,7 @@
         <li><a class="heder-section-item-contacts" href="">Contacts</a></li>
       </ul>
     </nav>
-    <address>
+    <address class="address">
       <ul class="header-addres-list">
         <li class="header-addres-item">
           <a class="header-addres-item-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -36,94 +39,98 @@
       </ul>
     </address>
   </header>
+
   <!-- Main block -->
-  <main>
+
+  <main class="main">
+
     <!-- Hero section -->
+
     <section class="hero-section">
       <h1 class="hero-section-text">Effective Solutions for Your Business</h1>
       <button class="hero-section-orderservice-button" type="button">Order Service</button>
-
     </section>
 
     <!-- Strategy section -->
+
     <section class="strategy-section">
       <h2 class="strategy-section-text" hidden> Strategy
         Punctuality
         Diligence
         Technologies</h2>
-      <ul class="strategy-section">
+
+      <ul class="strategy-section-list">
         <li class="strategy-section-item">
-          <h3 class="strstegy-section-hider-strategy">Strategy</h3>
+          <h3 class="strstegy-section-title-strategy">Strategy</h3>
           <p class="strstegy-section-text-strategy">Our goal is to identify the business
             problem to walk away with the perfect and creative solution.</p>
         </li>
 
-        <li class="strategy-section-item">
-          <h3 class="strstegy-section-hider-punctuality">Punctuality</h3>
+        <li class="strategy-section-link">
+          <h3 class="strstegy-section-title-punctuality">Punctuality</h3>
           <p class="strstegy-section-textm-punctuality">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
         </li>
 
-        <li class="strategy-section-item">
-          <h3 class="strstegy-section-hider-diligence">Diligence</h3>
+        <li class="strategy-section-link">
+          <h3 class="strstegy-section-title-diligence">Diligence</h3>
           <p class="strstegy-section-text-diligence">Research and confirm brands that present the strongest digital growth opportunities and
             minimize risk.</p>
         </li>
 
-        <li class="strategy-section-item">
-          <h3 class="strstegy-section-hider-tehnologies">Technologies</h3>
+        <li class="strategy-section-link">
+          <h3 class="strstegy-section-title-tehnologies">Technologies</h3>
           <p class="strstegy-section-text-tehnologies">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
         </li>
-
       </ul>
     </section>
 
     <!-- What are we doing section -->
-    <section>
-      <h2>What are we doing</h2>
-      <ul>
-        <li>
+
+    <section class="doing-section">
+      <h2 class="doing-section-h">What are we doing</h2>
+      <ul class="doing-section-list">
+        <li  class="doing-section-link">
           <img src="./images/doingsection/img1.jpg" alt="img1" width="360" height="300" />
         </li>
-        <li>
+        <li class="doing-section-link">
           <img src="./images/doingsection/img2.jpg" alt="img2" width="360" height="300" />
         </li>
-        <li>
+        <li class="doing-section-link">
           <img src="./images/doingsection/img3.jpg" alt="img3" width="360" height="300" />
         </li>
       </ul>
     </section>
 
     <!---Our Team section-->
+
     <section>
-      <h2>Our Team</h2>
-      <ul>
-        <li><img src="./images/ourteam/img1.jpg" alt="foto Mark Guerrero" width="264" height="260">
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
+      <h2 class="team-section-title">Our Team</h2>
+      <ul class="team-section-list">
+        <li class="team-section-item"><img src="./images/ourteam/img1.jpg" alt="foto Mark Guerrero" width="264" height="260">
+          <h3  class="team-section-name">Mark Guerrero</h3>
+          <p class="teme-section-work">Product Designer</p>
         </li>
-        <li><img src="./images/ourteam/img2.jpg" alt="foto Tom Ford" width="264" height="260">
-
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
+        <li class="team-section-item"><img src="./images/ourteam/img2.jpg" alt="foto Tom Ford" width="264" height="260">
+          <h3 class="team-section-name">Tom Ford</h3>
+          <p class="teme-section-work">Frontend Developer</p>
         </li>
-        <li><img src="./images/ourteam//img3.jpg" alt="foto Camila Garcia" width="264" height="260">
-
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
+        <li class="team-section-item"><img src="./images/ourteam//img3.jpg" alt="foto Camila Garcia" width="264" height="260">
+          <h3 class="team-section-name">Camila Garcia</h3>
+          <p class="teme-section-work">Marketing</p>
         </li>
-        <li><img src="./images/ourteam/img4.jpg" alt="foto Daniel Wilson" width="264" height="260">
-
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
+        <li class="team-section-item"><img src="./images/ourteam/img4.jpg" alt="foto Daniel Wilson" width="264" height="260">
+          <h3 class="team-section-name">Daniel Wilson</h3>
+          <p class="teme-section-work">UI Designer</p>
         </li>
       </ul>
     </section>
   </main>
 
   <!--Footer section-->
-  <footer>
-    <a href="./index.html">WebStudio</a>
-    <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+
+  <footer class="foter">
+    <a href="./index.html"><span class="web">Web</span><span class="studio-down">Studio</span></a>
+    <p class="foter-section-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
   </footer>
 
 </body>

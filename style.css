@@ -1,21 +1,23 @@
-.body {
-       font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-     color: #2E2F42;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --primarybrand-color: #4d5ae5;
+  --primarydark-color: #2e2f42;
+  --primarybody-color: #434455;
+  --pressedstate-color: #404bbf;
+  --light-text: #f4f4fd;
+  --white-text: #ffffff;
 }
-.header {
+.body {  font-family: "Roboto", sans-serif;
+   color: var(--primarybody-color);
+   background-color: var(--white-text);
 }
 .nav {
-}
-.heder-section {
 }
 .web {
 }
 .studio {
+}
+.logo {
 }
 .heder-section-list {
 }
@@ -92,16 +94,4 @@
 .studio-down {
 }
 .foter-section-description {
-}
-.navigation-page-list {
-}
-.navigation-page-item {
-}
-.section-porto {
-}
-.section-porto-list {
-}
-.section-porto-item {
-}
-.section-porto-text {
 }

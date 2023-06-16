@@ -105,8 +105,8 @@ background-color: #404BBF;
 }
 
 .strategy-section,
-.strategy-section-list,
-.strategy-section-link,
+.strategy-section list,
+.strategy-section link,
 .strstegy-section-title {
 font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -117,7 +117,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.strategy-section-list {
+.strategy-section list {
 list-style: none;
   }
 
@@ -129,7 +129,7 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
-.doing-section-list {
+.doing-section list {
 list-style: none;
 }
 
@@ -220,7 +220,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 
-.team-section-list {
+.team-section list {
 list-style: none;
 }
 

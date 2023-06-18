@@ -167,8 +167,8 @@ letter-spacing: 0.02em;
 background-color: #FFFFFF;
 }
   
-.team-section-name,
-.section-porto-item {
+
+.porto-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2
@@ -272,7 +272,7 @@ background-color: #404BBF;
 {list-style: none}
 .link{text-decoration: none;}
 
-.section-porto-text {
+.porto-text {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;

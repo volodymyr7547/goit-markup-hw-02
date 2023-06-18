@@ -1,4 +1,4 @@
-:root{
+:root {
 --primary-font:'Roboto',sans-serif;
 --primary-black-color:#404bbf ;
 --primary-white-color:#ffffff;
@@ -40,7 +40,7 @@ color: #2E2F42;
 }
 
 .link{
-text-decoration:none
+text-decoration: none
 }
 
 .link:hover,
@@ -55,11 +55,6 @@ color:  #404bbf;
 
 .address {
 font-style: normal;
-}
-
-.header-addres {
-list-style: none;
-text-decoration: none;
 }
 
 .tel {

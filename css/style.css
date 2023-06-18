@@ -180,13 +180,13 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.foter {
+.footer {
 background-color: #2E2F42;
 text-decoration: none;
 }
 
 .logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -196,20 +196,15 @@ text-transform: uppercase;
 color: #4D5AE5
 }
 
-.logo-link-span {
+.footer-span {
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
 }
 
-.foter-section-description {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+.footer-section-description  {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .team-section list {

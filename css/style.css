@@ -8,8 +8,8 @@
 .body {
 font-family: "Roboto", sans-serif;
 font-size: 16px;
-color: var(--main-dark-accent);
-background-color: var(--accent-cl);
+color: #434455;
+background-color: #FFFFFF;
 }
 
 
@@ -270,7 +270,7 @@ color: #ffffff;
 background-color: #404BBF;
 }
 .section-porto{
-  
+
 }
 .section-porto-item
 {
@@ -285,5 +285,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-background-color: #FFFFFF;
+
 }

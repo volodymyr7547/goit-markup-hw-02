@@ -260,27 +260,17 @@ background-color: #F4F4FD;
 cursor: pointer 
 }
 
-.filters-nav-btn:hover{
+.filters-nav-btn:hover {
 color: #ffffff;
 background-color: #404BBF;
 }
 
-.filters-nav-btn:focus{
+.filters-nav-btn:focus {
 color: #ffffff;
 background-color: #404BBF;
 }
-.section-porto{
 
-}
-.section-porto-item
-{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primarydark-color);
-}
-.section-porto-text{
+.section-porto-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;

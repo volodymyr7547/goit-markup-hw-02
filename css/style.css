@@ -168,7 +168,14 @@ background-color: #FFFFFF;
 }
 
 .team-section-name {
-
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
 .teme-section-work {

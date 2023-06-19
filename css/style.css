@@ -223,6 +223,8 @@ text-decoration: none;
 list-style: none;
 }
 
+/* btn*/
+
 .filters-nav-btn {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -258,6 +260,7 @@ color:#4d5ae5 ;
 background-color: #F4F4FD;
 cursor: pointer 
 }
+/*hover*/
 
 .filters-nav-btn:hover {
 color: #ffffff;
@@ -268,6 +271,7 @@ background-color: #404BBF;
 color: #ffffff;
 background-color: #404BBF;
 }
+
 /*portofolio*/
 
 .porto-title {

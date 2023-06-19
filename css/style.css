@@ -268,15 +268,7 @@ background-color: #404BBF;
 color: #ffffff;
 background-color: #404BBF;
 }
-.porto-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .porto-item {
   font-style: normal;
   font-weight: 500;

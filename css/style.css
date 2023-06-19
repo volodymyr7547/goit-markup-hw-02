@@ -275,7 +275,8 @@ background-color: #404BBF;
 
 /*portofolio*/
 
-.porto-title {
+.porto-title, 
+.porto-item {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;

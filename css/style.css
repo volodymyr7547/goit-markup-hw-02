@@ -7,7 +7,7 @@
 }
 
 .body {
-font-family: "Roboto", sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 color: #434455;
 background-color: #FFFFFF;
@@ -15,7 +15,7 @@ background-color: #FFFFFF;
 
 
 .logo {
-font-family: 'Raleway',sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -65,7 +65,7 @@ font-style: normal;
 }
 
 .tel {
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -78,7 +78,7 @@ background-color: #2E2F42;
 }
 
 .hero-section-title {
-font-family: 'Roboto'sans-serif;
+font-family: 'Roboto',sans-serif;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
